@@ -1,46 +1,72 @@
-# Cosmic Contrast
+# 🌌 My Portfolio
 
-Interactive portfolio site built with React, Vite, TypeScript, Tailwind CSS v4, Framer Motion, and Three.js. Includes a real-time WebGL black hole simulation.
+A modern developer portfolio built with React, TypeScript, Vite, Three.js, Framer Motion, and Tailwind CSS.
 
-## Getting started
+## ✨ Features
+
+- Responsive modern UI
+- Interactive 3D background using Three.js
+- Smooth animations with Framer Motion
+- Project showcase
+- About Me section
+- Contact section
+- Fast performance with Vite
+
+## 🛠 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Three.js
+- Framer Motion
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sammy4444444/my-portofolio.git
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Run development server:
+
+```bash
 npm run dev
 ```
 
-The dev server runs at http://localhost:8080.
-
-## Build
+Build for production:
 
 ```bash
 npm run build
 ```
 
-Outputs a static site to `dist/`, containing `dist/index.html` plus hashed asset files.
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## Deployment
-
-The build output in `dist/` is a plain static site and can be deployed to any static host (Netlify, Vercel, GitHub Pages, Cloudflare Pages, S3, etc.).
-
-For providers that need SPA fallback so client-side routes like `/black-hole` work on refresh, redirect all unknown paths to `index.html`. On Netlify this is a one-liner in `public/_redirects`:
+## 📂 Project Structure
 
 ```
-/*   /index.html   200
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── hooks/
+ ├── lib/
+ └── main.tsx
 ```
 
-## Tech stack
+## 🌐 Live Demo
 
-- React 19 + React Router
-- Vite 7
-- TypeScript
-- Tailwind CSS v4
-- Framer Motion (via `motion`)
-- Three.js
-- shadcn/ui components (Radix primitives)
+Coming Soon...
+
+## 📸 Preview
+
+(Add screenshots here after deployment)
+
+## 📄 License
+
+This project is open source under the MIT License.
