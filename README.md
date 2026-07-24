@@ -1,6 +1,6 @@
 ## 🌐 Live Demo
 
-🔗 comfy-parfait-ea6b0c.netlify.app
+🔗[ https://comfy-parfait-ea6b0c.netlify.app](https://comfy-parfait-ea6b0c.netlify.app/)
 
 # 🌌 My Portfolio
 
